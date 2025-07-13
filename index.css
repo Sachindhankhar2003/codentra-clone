@@ -1,0 +1,171 @@
+/* Main Form Box */
+#main{
+    background-image: linear-gradient(to bottom,rgba(224, 180, 150, 0.993), rgba(223, 159, 217, 0.788) );
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    height: 560px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 65px;
+    text-align: center;
+    font-family: 'Montserrat', 'sansserif';
+    box-shadow: 3px 3px 30px 0px #a5a5a5;
+}
+
+/* For the flex of main box */
+#mainFlex{
+    display: flex;
+    justify-content: center;
+}
+
+/* For the LPU logo */
+#lpuLogoImage{
+    height: 100px;
+    width:45%;
+    margin-bottom: 0px;
+}
+
+/* For the Head of MyClass */
+#myclass{
+    color: white;
+    font-size: 41px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+/* For the desc of myclass */
+#ums{
+    color: white;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+/* For the form */
+#form{
+    margin-top: 57px;
+}
+
+/* For the placeholder */
+::placeholder{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.76);
+    font-family:  'Montserrat', 'sansserif';
+    
+}
+
+/* For the username box */
+input[type=text]{
+    background: none;    
+    font-weight: 500;
+    color: white;
+    width: 310px;
+    padding-left: 0px;
+    padding-bottom: 17px;
+    letter-spacing: 0.01em;
+    margin-top: 10px ;
+    box-sizing:content-box;
+    border-radius: 0px;
+    border-color: rgba(255, 255, 255, 0.726);
+    border-bottom: 2px ;
+    color: rgb(255, 255, 255);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:solid;
+    font-family: 'Montserrat', 'sans-serif';
+
+}
+
+/* When username box is in focus */
+input[type=text]:focus{
+    border-radius: 0px;
+    background-color: rgb(234, 238, 241);
+    border-bottom-color: red;
+    border-width: 2px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+/* For the password box */
+input[type=password]{
+    background: none;
+    font-weight: 500;
+    color: white;
+    width: 310px;
+    padding-left: 0px;
+    padding-bottom: 13px;
+    margin-top: 30px ;
+    box-sizing:content-box;
+    border-radius: 0px;
+    border-color: rgba(255, 255, 255, 0.726);
+    border-bottom: 2px ;
+    color: rgb(255, 255, 255);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:solid;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/* When the password box is in focus */
+input[type=password]:focus{
+    border-radius: 0px;
+    background-color: rgb(234, 238, 241);
+    border-bottom-color: red;
+    border-width: 2px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+/* For the login button */
+#button{
+    height: 60px;
+    margin-top: 50px;
+    border-color: rgba(255, 255, 255, 0.65);
+    border-radius: 25px;
+    width: 310px;
+    background-color: rgba(255, 228, 233, 0.2);
+    border-style: solid;
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 1.4rem;
+    border-width: 1px;
+    letter-spacing: 00.01em;
+    font-weight: 500;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/* When we hover on the login button */
+#button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 228, 233, 0.692);
+    border-color: rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+
+/* For the codetantra logo */
+#codetantraImage{
+    height: 20px;
+    width: 165px;
+    margin-left: 10px;
+    margin-top: 6px;
+}  
+
+/* For the desc of codetantra */
+#lastText{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    margin-bottom: 9px;
+    margin-top: 22px;
+}
